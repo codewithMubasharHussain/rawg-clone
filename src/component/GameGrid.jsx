@@ -1,18 +1,10 @@
-import { useEffect } from "react";
-import { useState } from "react";
-import apiClient from "../services/api-client";
+
 import {Text} from "@chakra-ui/react";
+import useGames from "../Hooks/useGames";
 
 
 function GameGrid(){
-   const [Game,SetGame] =  useState([]);
-   const [error,seterror] = useState('');
-
-   useEffect(()=>{
-    apiClient.get('/games')
-    .then(res => SetGame(res.data.results))
-    .catch(error => seterror(error.message))
-   })
+    const {Game,error}=useGames();
     return(
         <>
         {error&&<Text>{error}</Text>}
