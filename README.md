@@ -19,3 +19,5 @@ Add user authentication for personalized experiences.
 Integrate real-time game updates and news.
 Improve the filtering and search functionalities.
 
+https://github.com/codewithMubasharHussain/rawg-clone/blob/main/rwag-clone.jpeg
+
