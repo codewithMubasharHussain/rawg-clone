@@ -18,6 +18,6 @@ git clone https://github.com/codewithMubasharHussain/rawg-clone.git
 Add user authentication for personalized experiences.
 Integrate real-time game updates and news.
 Improve the filtering and search functionalities.
+![Screenshot](https://github.com/codewithMubasharHussain/rawg-clone/blob/main/rwag-clone.jpeg)
 
-https://github.com/codewithMubasharHussain/rawg-clone/blob/main/rwag-clone.jpeg
 
